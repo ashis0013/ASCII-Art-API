@@ -4,7 +4,7 @@ A simple API service built with Ktor to get ascii art of an image. This API take
 
 ```json
 {
-  "img" : "image encoded in BASE64 string"
+  "img" : "image encoded in BASE64 string",
   "width" : "The width of ascii image. Length of each line"
 }
 ```
