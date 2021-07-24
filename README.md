@@ -25,5 +25,6 @@ print(call.text)
 ```
 
 Then the result would be
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/31564734/126866414-a48ebfa9-0128-449b-b106-8cc70d5c8dee.gif)
 
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/31564734/126866414-a48ebfa9-0128-449b-b106-8cc70d5c8dee.gif)
