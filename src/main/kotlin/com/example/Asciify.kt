@@ -28,12 +28,13 @@ class Asciify(private val base64img : String, private val maxWidth : Int) {
         val img = src.clone()
         resize(img, img,  Size(width, height))
         cvtColor(img,img, COLOR_BGR2GRAY)
+        equalizeHist(img,img)
         return img
     }
     fun getAsciiArt(): String {
         val img = preProccess()
         var text = ""
-        val threshList = listOf<Double>(80.0,120.0,150.0,170.0)
+        val threshList = listOf<Double>(80.0,120.0,160.0,200.0)
         val asciiColors = listOf<Char>('.','-','+','@')
         var res = mutableListOf<Char>()
         for (i in 0..width.toInt()*height.toInt()) {
